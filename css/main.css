@@ -5,7 +5,7 @@
 html {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    
 }
 body {
     width: 100%;
@@ -28,6 +28,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-width: 550px;
 }
 .h1 {
     font-family: 'Inset';
@@ -136,7 +137,7 @@ body {
     position: relative;
     z-index: 500;
     padding: 10px 10px;
-    width: 400px;
+    min-width: 400px;
 }
 .header_bottom {
     font-size: 24px;
