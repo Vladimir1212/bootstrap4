@@ -5,15 +5,19 @@
 html {
     width: 100%;
     max-width: 100%;
-    
+    overflow-x: hidden;
 }
 body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    min-width: 550px;
 }
 .col-lg-2 {
     padding: 0;
+}
+.header_layuot {
+    right: 60px;
 }
 .img-header {
     z-index: 300;
@@ -22,13 +26,11 @@ body {
 .row_layout {
     padding-top: 30px;
 }
-
 .header {
     background-image: url(../img/bkg1_dskt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-width: 550px;
 }
 .h1 {
     font-family: 'Inset';
@@ -192,4 +194,8 @@ body {
     .header_bottom {
         right: 100px;
     }
+    .header {
+    background-image: url(../img/bkg1_mbl.jpg);
+    }
+    
 }
