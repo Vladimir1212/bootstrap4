@@ -11,7 +11,7 @@ body {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    min-width: 550px;
+    min-width: 643px;
 }
 .col-lg-2 {
     padding: 0;
@@ -227,6 +227,9 @@ body {
 .body_layout {
     max-width: 1400px;
 }
+.schedule_content {
+    padding-top: 20px;
+}
 .schedule_item {
     display: flex;
 }
@@ -272,6 +275,34 @@ body {
     font-family: 'Sans', sans-serif;
     font-weight: bold;
 }
+.schedule_item-layout_1 {
+    padding-left: 10px;
+}
+.schedule_item-layout_2 {
+    padding-left: 15px;
+}
+.schedule_item-layout_3 {
+    padding-left: 20px;
+}
+.schedule_item-layout_4 {
+    padding-left: 10px;
+}
+.schedule_item-layout_5 {
+    margin-left: -10px;
+}
+.schedule_img {
+    padding-top: 100px;
+}
+li {
+list-style-type: none;
+}
+li:before {
+    font-family: 'Sans', sans-serif;
+    font-weight: 400;
+    color: red;
+    content: "•";
+    padding-right: 7px;
+}
 @media (max-width: 991px) {
     .h1 {
         font-size: 30px;
@@ -316,5 +347,16 @@ body {
     .header {
     background-image: url(../img/bkg1_mbl.jpg);
     }
-    
+    .schedule_body {
+        background-image: url(../img/bkg2_mbl.jpg);
+    }
+    .schedule_img {
+        display: none;
+    }
+    .schedule_layer {
+        padding-left: 85px;
+    }
+}
+@media (max-width: 643px) {
+
 }
