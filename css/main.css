@@ -31,6 +31,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .h1 {
     font-family: 'Inset';
@@ -152,7 +153,125 @@ body {
     padding-top: 5px;
     min-width: 400px;
 }
-
+.symbol_description {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+    max-width: 260px;
+    padding-top: 5px;
+}
+.symbol_sign {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.symbol_layout {
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.schedule {
+    padding-top: 55px;
+}
+.schedule_title {
+    font-family: 'Inset';
+    font-size: 48px;
+    color: #e1041e;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+}
+.schedule_title:before,
+.schedule_title:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 3px;
+  background: #e1041e;
+  border: solid;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  border-width: 0 10px;
+}
+.schedule_title:before {
+  margin-left: -100%;
+}
+.schedule_title:after {
+  margin-right: -100%;
+}
+.schedule_calendar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.schedule_data {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+}
+.schedule_body {
+    background-image: url(../img/bkg2_dskt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.body_layout {
+    max-width: 1400px;
+}
+.schedule_item {
+    display: flex;
+}
+.schedule_description {
+    font-size: 18px;
+    font-family: 'Sans', sans-serif;
+}
+.span_layout {
+    padding-right: 15px;
+}
+.footer_title {
+    font-size: 30px;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+    color: #e1041e;
+    overflow: hidden;
+}
+.footer_title:before,
+.footer_title:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+  background: #e1041e;
+  border: solid;
+  border-width: 0 10px;
+}
+.footer_title:before {
+  margin-left: -100%;
+}
+.footer_title:after {
+  margin-right: -100%;
+}
+.schedule_footer {
+    border-bottom: 2px solid #e1041e;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_description {
+    font-size: 24px;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+}
 @media (max-width: 991px) {
     .h1 {
         font-size: 30px;
